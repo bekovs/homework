@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.table {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.App {
+  position: relative;
+  min-height: 100vh;
+}
+
+.footer {
+  font-size: 2vmin;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 10vmax;
+  color: white;
+}
+
+.footer-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 100%;
+  height: 50%;
+  background-color: gainsboro;
+}
+
+.footer-second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  background-color: slategrey;
+}
+
+.bg-light {
+  background-color: gainsboro !important;
+}
